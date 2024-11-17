@@ -11,43 +11,43 @@
   </head>
   <body>
     <header class="header">
-      <nav class="header_menu">
-        <ul class="header__links-list">
-          <li class="header__links-list-item header__links-list-item_no-bullet">главная</li>
-          <li class="header__links-list-item">посмотреть лоты</li>
-          <li class="header__links-list-item">об аукционе</li>
-        </ul>
+      <nav class="header__menu">
+          <ul class="header__links-list">
+            <li class="header__links-list-item header__links-list-item_no-bullet"><a class="right_underline">главная</a></li>
+            <li class="header__links-list-item"><a  class="right_underline" href="#">посмотреть лоты</a></li>
+            <li class="header__links-list-item"><a class="right_underline" href="#">об аукционе</a></li>
+          </ul>
+        <div class="header_logo">
+          <img class="header__logo-image" src="./images/logo-black.svg" alt="Черный логотип Оно тебе надо">
+        </div>
+        <aside class="adress">
+          <a class="right_underline" href="tel:+99995555555">+9 999 555 5555<br></a>
+          <a class="right_underline" href="mailto:info@sobaka.ge">info@sobaka.ge<br></a>
+          <p>наб. Принсенграхт 263-<br>265, Амстердам</p>
+        </aside>
       </nav>
-      <div class="header_logo">
-        <img class="header__logo-image" src="./images/logo-black.svg" alt="Черный логотип Оно тебе надо">
-      </div>
-      <div class="adress">
-        <a class="right_underline" href="tel:+99995555555">+9 999 555 5555<br></a>
-        <a class="right_underline" href="mailto:info@sobaka.ge">info@sobaka.ge<br></a>
-        <address>наб. Принсенграхт 263-<br>265, Амстердам</address>
-      </div>
     </header>
     <main>
       <section class="cover">
         <div class="overlay">
           <h1 class="cover_title">
-            <span class="align_text">ОНО</span>
-            <span class="align_text-center">ТЕБЕ</span>
-            <span class="aline_text-right">НАДО</span>
+            <span class="align_text">О<span class="letter-spacing-extended">НО</span></span>
+            <span class="align_text-center">ТЕ<span class="letter-spacing-extended">БЕ</span></span>
+            <span class="align_text-right"><span class="letter-spacing-extended">Н</span>АД<span class="no_letter-spacing">О</span></span>
           </h1>
         <div class="cover__description">
-          <h2 class="cover__description-text">Аукцион вещей, вкоторые никто не верил</h2>
+          <h2 class="cover__description-text">Аукцион вещей, в которые никто не верил</h2>
           <button class="bet-button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots">
         <h3 class="lots__heading">Лоты</h3>
-        <ul class="lots__card_list">
+        <ul class="lots__card-list">
           <a class="card-link">
             <li class="lots__card-list-item">
               <div class="card card_type-film">
                 <h4 class="card__title"></h4>
-                <p class="card__text"></p>
+                <a class="card__text"></a>
               </div>
             </li>
           </a>
@@ -62,7 +62,7 @@
           <a class="card-link">
             <li class="lots__card-list-item">
               <div class="card card_type-picture">
-                <<h4 class="card__title"></h4>
+                <h4 class="card__title"></h4>
                 <p class="card__text"></p>
               </div>
             </li>
