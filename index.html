@@ -14,13 +14,13 @@
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item header__links-list-item_no-bullet">
-            <a class="right_underline">главная</a>
+            <a class="header__link_active">главная</a>
           </li>
           <li class="header__links-list-item">
-            <a class="right_underline" href="#">посмотреть лоты</a>
+            <a class="header__link_active" href="#">посмотреть лоты</a>
           </li>
           <li class="header__links-list-item">
-            <a class="right_underline" href="#">об аукционе</a>
+            <a class="header__link_active" href="#">об аукционе</a>
           </li>
         </ul>
         <div class="header_logo">
@@ -31,10 +31,12 @@
           />
         </div>
         <div class="adress">
-          <a class="right_underline" href="tel:+99995555555"
+          <a class="header__link_active header__link" href="tel:+99995555555"
             >+9 999 555 5555<br
           /></a>
-          <a class="right_underline" href="mailto:info@sobaka.ge"
+          <a
+            class="header__link_active header__link"
+            href="mailto:info@sobaka.ge"
             >info@sobaka.ge<br
           /></a>
           <address>наб. Принсенграхт 263-<br />265, Амстердам</address>
@@ -134,7 +136,7 @@
             <p>
               Здесь вы не встретите очередное пафосное собрание невероятно
               дорогого антиквариата. Наши лоты вообще не должны были попасть ни
-              на один аукцион. Потому что кому нужен дневник девочки-<br>подростка
+              на один аукцион. Потому что кому нужен дневник девочки-<br />подростка
               или картина, которую может нарисовать даже ребёнок? Кому нужны все
               эти странные вещи, созданные любителями?
             </p>
@@ -153,10 +155,10 @@
     </main>
     <footer class="footer">
       <div class="adress">
-        <a class="right_underline" href="tel:+99995555555"
+        <a class="header__link_active header__link" href="tel:+99995555555"
           >+9 999 555 5555<br
         /></a>
-        <a class="right_underline" href="mailto:info@sobaka.ge"
+        <a class="header__link_active header__link" href="mailto:info@sobaka.ge"
           >info@sobaka.ge<br
         /></a>
         <address>наб. Принсенграхт 263-<br />265, Амстердам</address>
@@ -164,19 +166,23 @@
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link"> главная </a>
+            <a class="footer__menu-link" href="#"> главная </a>
           </li>
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link"> посмотреть лоты </a>
+            <a class="footer__menu-link footer__menu-link_active" href="#">
+              посмотреть лоты
+            </a>
           </li>
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link"> об аукционе </a>
+            <a class="footer__menu-link footer__menu-link_active" href="#">
+              об аукционе
+            </a>
           </li>
         </ul>
       </nav>
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
-          <a class="footer__social-link">
+          <a class="footer__social-link" href="#">
             <img
               class="footer__social-icon"
               src="/ono-tebe-nado/images/yt.svg"
@@ -185,7 +191,7 @@
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a class="footer__social-link">
+          <a class="footer__social-link" href="#">
             <img
               class="footer__social-icon"
               src="/ono-tebe-nado/images/vk.svg"
@@ -194,7 +200,7 @@
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a class="footer__social-link">
+          <a class="footer__social-link" href="#">
             <img
               class="footer__social-icon"
               src="/ono-tebe-nado/images/pinterest.svg"

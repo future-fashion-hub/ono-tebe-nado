@@ -21,24 +21,33 @@
   list-style: none;
 }
 
+.header__link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24.3px;
+}
+
+.header__link_active {
+  text-underline-offset: 4px;
+} 
+
 .header__logo-image {
   width: 148px;
   height: 105px;
 }
 
-.right_underline {
-  text-underline-offset: 4px;
-}
-
 .address {
-  font-size: 18px;
   font-weight: 400;
+  font-size: 18px;
   line-height: 24.3px;
   letter-spacing: 0.01em;
 }
 
 address {
   all: initial;
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 24.3px;
 }
 
 .cover {
@@ -205,12 +214,12 @@ address {
 }
 
 .about__column {
-  padding: 0 24px 0 24px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows:  240px 1fr;
   justify-items: center;
   align-items: center;
+  padding: 0 24px 0 24px;
 }
 
 .about__logo {
@@ -230,28 +239,28 @@ address {
 
 .about__title {
   justify-self: start;
-  font-size: 40px;
-  text-transform: uppercase;
-  line-height: 46.96px;
   padding-left: 10px;
+  font-size: 40px;
+  line-height: 46.96px;
+  text-transform: uppercase;
 }
 
 .about__text {
-  position: relative;
-  bottom: 36px;
   display: flex;
   flex-direction: column;
   grid-column: 2/3;
   gap: 24px;
+  padding-left: 9px;
   font-size: 20px;
   line-height: 24px;
-  padding-left: 9px;
 }
 
 .footer {
-  display: flex;
-  justify-content: space-around;
-  margin: 180px 50px 88px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  margin-top: 180px;
+  padding: 0 50px 70px;
 }
 
 .footer__menu {
@@ -268,13 +277,17 @@ address {
 }
 
 .footer__menu-link {
+  text-decoration: none;
 }
 
 .footer__menu-link_active {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .footer__social-list {
   display: flex;
+  justify-self: end;
   gap: 48px;
   list-style: none;
 }
@@ -282,10 +295,4 @@ address {
 .footer__social-list-item {
   width: 48px;
   height: 48px;
-}
-
-.footer__social-link {
-}
-
-.footer__social-icon {
 }
