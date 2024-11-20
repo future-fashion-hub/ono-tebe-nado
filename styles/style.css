@@ -37,6 +37,8 @@
 }
 
 .address {
+  position: relative;
+  right: 25px;
   justify-self: end;
   width: 240px;
   font-weight: 400;
@@ -226,6 +228,9 @@ address {
 }
 
 .about__logo {
+  position: relative;
+  right: 6px;
+  bottom: 6px;
   display: flex;
   justify-content: center;
   align-items: center;
