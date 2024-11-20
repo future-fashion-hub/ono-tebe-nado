@@ -53,6 +53,7 @@ address {
 }
 
 .cover {
+  padding: 165px 50px 51px 50px;
   position: relative;
   color: white;
   background-image: url(/ono-tebe-nado/images/cover.jpg);
@@ -68,9 +69,9 @@ address {
 }
 
 .cover_title {
+  margin-bottom: 135px;
   position: relative;
   z-index: 1;
-  padding: 165px 50px 147px 50px;
   font-size: 100px;
   letter-spacing: 0.3em;
 }
@@ -104,8 +105,9 @@ address {
   position: relative;
   z-index: 1;
   display: flex;
-  justify-content: space-between;
-  padding: 0 50px 51px 78px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 79px;
 }
 
 .cover__description-text {
@@ -144,7 +146,7 @@ address {
 .lots__card-list {
   display: flex;
   gap: 25px;
-  padding-bottom: 30px;
+  margin-bottom: 25px;
   list-style: none;
 }
 
@@ -206,16 +208,17 @@ address {
   margin-left: 40px;
   font-size: 20px;
   line-height: 23.48px;
+  text-underline-offset: 4px;
 }
 
 .about {
-  margin-top: 146px;
+  margin-top: 190px;
 }
 
 .about__column {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows:  240px 1fr;
+  grid-template-rows:  240ox 1fr;
   justify-items: center;
   align-items: center;
   padding: 0 24px 0 24px;
