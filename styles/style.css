@@ -29,7 +29,7 @@
 
 .header__link_active {
   text-underline-offset: 4px;
-} 
+}
 
 .header__logo-image {
   width: 148px;
@@ -37,8 +37,8 @@
 }
 
 .address {
-  width: 240px;
   justify-self: end;
+  width: 240px;
   font-weight: 400;
   font-size: 18px;
   line-height: 24.3px;
@@ -53,8 +53,8 @@ address {
 }
 
 .cover {
-  padding: 165px 50px 51px 50px;
   position: relative;
+  padding: 165px 50px 51px 50px;
   color: white;
   background-image: url(/ono-tebe-nado/images/cover.jpg);
   background-position: center;
@@ -69,9 +69,9 @@ address {
 }
 
 .cover_title {
-  margin-bottom: 135px;
   position: relative;
   z-index: 1;
+  margin-bottom: 135px;
   font-size: 100px;
   letter-spacing: 0.3em;
 }
@@ -145,6 +145,7 @@ address {
 
 .lots__card-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
   margin-bottom: 25px;
   list-style: none;
@@ -218,7 +219,7 @@ address {
 .about__column {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows:  240ox 1fr;
+  grid-template-rows: 240px 1fr;
   justify-items: center;
   align-items: center;
   padding: 0 24px 0 24px;
@@ -263,9 +264,6 @@ address {
   justify-content: space-between;
   margin-top: 180px;
   padding: 0 50px 70px;
-}
-
-.footer__menu {
 }
 
 .footer__menu-list {
