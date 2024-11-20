@@ -58,7 +58,7 @@ address {
   position: relative;
   padding: 165px 50px 51px 50px;
   color: white;
-  background-image: url(/ono-tebe-nado/images/cover.jpg);
+  background-image: url('../images/cover.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -171,19 +171,19 @@ address {
 }
 
 .card_type_film {
-  background-image: url(/ono-tebe-nado/images/card-lot-01.jpg);
+  background-image: url('../images/card-lot-01.jpg');
   background-position: center;
   background-size: cover;
 }
 
 .card_type_book {
-  background-image: url(/ono-tebe-nado/images/card-lot-02.jpg);
+  background-image: url('../images/card-lot-02.jpg');
   background-position: center;
   background-size: cover;
 }
 
 .card_type_picture {
-  background-image: url(/ono-tebe-nado/images/card-lot-03.jpg);
+  background-image: url('../images/card-lot-03.jpg');
   background-position: center;
   background-size: cover;
 }
