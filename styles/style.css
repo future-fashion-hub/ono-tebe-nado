@@ -1,5 +1,5 @@
 .header {
-  padding: 92px 24px 96px 24px;
+  padding: 92px 24px 92px 24px;
 }
 
 .header__menu {
@@ -25,10 +25,11 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 24.3px;
+  text-underline-offset: 4px;
 }
 
 .header__link_active {
-  text-underline-offset: 4px;
+  text-decoration: none;
 }
 
 .header__logo-image {
@@ -49,16 +50,20 @@
 
 address {
   all: initial;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   line-height: 24.3px;
+}
+
+.address__link {
+  text-underline-offset: 4px;
 }
 
 .cover {
   position: relative;
   padding: 165px 50px 51px 50px;
   color: white;
-  background-image: url('../images/cover.jpg');
+  background-image: url("../images/cover.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -120,8 +125,8 @@ address {
 }
 
 .bet-button {
-  width: 256px;
-  height: 51px;
+  min-width: 256px;
+  min-height: 51px;
   border: 1px solid white;
   color: white;
   font-weight: 500;
@@ -132,7 +137,7 @@ address {
 }
 
 .lots {
-  margin-top: 179px;
+  margin-top: 183px;
   padding: 0 24px;
 }
 
@@ -168,24 +173,20 @@ address {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
 .card_type_film {
-  background-image: url('../images/card-lot-01.jpg');
-  background-position: center;
-  background-size: cover;
+  background-image: url("../images/card-lot-01.jpg");
 }
 
 .card_type_book {
-  background-image: url('../images/card-lot-02.jpg');
-  background-position: center;
-  background-size: cover;
+  background-image: url("../images/card-lot-02.jpg");
 }
 
 .card_type_picture {
-  background-image: url('../images/card-lot-03.jpg');
-  background-position: center;
-  background-size: cover;
+  background-image: url("../images/card-lot-03.jpg");
 }
 
 .card__title {
@@ -282,12 +283,12 @@ address {
 }
 
 .footer__menu-link {
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .footer__menu-link_active {
-  text-decoration: underline;
-  text-underline-offset: 4px;
+  text-decoration: none;
 }
 
 .footer__social-list {
